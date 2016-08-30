@@ -17,7 +17,7 @@
   function($stateProvider, $urlRouterProvider) {
 
     $stateProvider
-      .state('index', {
+      .state('home', {
         url: '/',
         templateUrl: 'index.html',
         controller: 'MainCtrl'
